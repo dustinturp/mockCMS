@@ -12,4 +12,4 @@ mock employee tracker cli tool.
 `npm install dotenv`
 
 ## Testing 
-`npm run dev`
+`npm run dev` - Starts express and restarts when changes are made. 

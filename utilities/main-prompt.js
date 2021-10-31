@@ -1,9 +1,9 @@
 //inquirer questions
 const inquirer = require('inquirer');
 const Choices = require('inquirer/lib/objects/choices');
-const { init } = require('../models/Employee')
+const { Employee } = require('../models') ///Employee
 
-const promptUser = () => {
+const mainPrompt = () => {
     inquirer
     .prompt([
         {
@@ -26,7 +26,6 @@ const promptUser = () => {
     // .catch(err)
 }
 
-
 // promptUser();
 
-module.exports = promptUser()
+module.exports = mainPrompt()
